@@ -1,0 +1,133 @@
+'.source.js':
+  'enzyme.mount':
+    'prefix': "moun"
+    'body': "mount(<$1 />${2:, options}${3:, options.context}${4:, options.attachTo}${5:, options.childContextTypes});"
+  'mount.find':
+    'prefix': "find"
+    'body': "$1.find(${2:selector});"
+  'mount.findWhere':
+    'prefix': "findWhere"
+    'body': "$1.findWhere(${2:predicate});"
+  'mount.filter':
+    'prefix': "filter"
+    'body': "$1.filter(${2:selector});"
+  'mount.filterWhere':
+    'prefix': "filterWhere"
+    'body': "$1.filterWhere(${2:predicate})"
+  'mount.contains':
+    'prefix': "contains"
+    'body': "$1.contains(${2:nodeOrNodes})"
+  'mount.hasClass':
+    'prefix': "hasClass"
+    'body': "$1.hasClass(${2:className})"
+  'mount.is':
+    'prefix': "is"
+    'body': "$1.is(${2:selector})"
+  'mount.not':
+    'prefix': "not"
+    'body': "$1.not(${2:selector})"
+  'mount.children':
+    'prefix': "children"
+    'body': "$1.children()"
+  'mount.childAt':
+    'prefix': "childAt"
+    'body': "$1.childAt()"
+  'mount.parents':
+    'prefix': "parents"
+    'body': "$1.parents()"
+  'mount.parent':
+    'prefix': "parent"
+    'body': "$1.parent()"
+  'mount.closest':
+    'prefix': "closest"
+    'body': "$1.closest(${2:selector})"
+  'mount.render':
+    'prefix': "render"
+    'body': "$1.render()"
+  'mount.text':
+    'prefix': "text"
+    'body': "$1.text()"
+  'mount.html':
+    'prefix': "html"
+    'body': "$1.html()"
+  'mount.get':
+    'prefix': "get"
+    'body': "$1.get(${2:index})"
+  'mount.at':
+    'prefix': "at"
+    'body': "$1.at(${2:index})"
+  'mount.first':
+    'prefix': "first"
+    'body': "$1.first()"
+  'mount.last':
+    'prefix': "last"
+    'body': "$1.last()"
+  'mount.state':
+    'prefix': "state"
+    'body': "$1.state(${2:[key]})"
+  'mount.context':
+    'prefix': "context"
+    'body': "$1.context(${2:[key]})"
+  'mount.props':
+    'prefix': "props"
+    'body': "$1.props()"
+  'mount.prop':
+    'prefix': "prop"
+    'body': "$1.prop(${2:key})"
+  'mount.simulate':
+    'prefix': "simulate"
+    'body': "$1.simulate(${2:event}${3:, [data]})"
+  'mount.setState':
+    'prefix': "setState"
+    'body': "$1.setState(${2:nextState})"
+  'mount.setProps':
+    'prefix': "setProps"
+    'body': "$1.setProps(${2:nextProps})"
+  'mount.setContext':
+    'prefix': "setContext"
+    'body': "$1.setContext(${2:context})"
+  'mount.instance':
+    'prefix': "instance"
+    'body': "$1.instance()"
+  'mount.unmount':
+    'prefix': "unmount"
+    'body': "$1.unmount()"
+  'mount.mount':
+    'prefix': "mount"
+    'body': "$1.mount()"
+  'mount.update':
+    'prefix': "update"
+    'body': "$1.update()"
+  'mount.debug':
+    'prefix': "debug"
+    'body': "$1.debug()"
+  'mount.type':
+    'prefix': "type"
+    'body': "$1.type()"
+  'mount.forEach':
+    'prefix': "forEach"
+    'body': "$1.forEach(${2:fn})"
+  'mount.reduce':
+    'prefix': "reduce"
+    'body': "$1.reduce(${2:fn}${3:, [initialValue]})"
+  'mount.reduceRight':
+    'prefix': "reduceRight"
+    'body': "$1.reduceRight(${2:fn}${3:, [initialValue]})"
+  'mount.some':
+    'prefix': "some"
+    'body': "$1.some(${2:selector})"
+  'mount.someWhere':
+    'prefix': "someWhere"
+    'body': "$1.someWhere(${2:predicate})"
+  'mount.every':
+    'prefix': "every"
+    'body': "$1.every(${2:selector})"
+  'mount.everyWhere':
+    'prefix': "everyWhere"
+    'body': "$1.everyWhere(${2:predicate})"
+  'mount.ref':
+    'prefix': "ref"
+    'body': "$1.ref(${2:refName})"
+  'mount.detach':
+    'prefix': "detach"
+    'body': "$1.detach()"

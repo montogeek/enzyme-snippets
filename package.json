@@ -1,0 +1,20 @@
+{
+  "name": "enzyme-snippets",
+  "version": "0.0.0",
+  "description": "Enzyme snippets for Atom",
+  "repository": "https://github.com/montogeek/enzyme-snippets",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "enzyme",
+    "react",
+    "test",
+    "atom"
+  ],
+  "author": "Fernando Montoya",
+  "license": "MIT"
+}
