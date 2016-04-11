@@ -1,6 +1,6 @@
 {
   "name": "enzyme-snippets",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Enzyme snippets for Atom",
   "repository": "https://github.com/montogeek/enzyme-snippets",
   "main": "index.js",
